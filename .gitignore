@@ -1,0 +1,16 @@
+# Fichiers sensibles
+.env
+
+# Environnements Python
+__pycache__/
+*.pyc
+
+# Fichiers système
+.DS_Store
+
+# Environnement virtuel
+venv/
+env/
+
+# Contenu potentiellement lourd
+*.log

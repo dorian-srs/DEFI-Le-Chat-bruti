@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Titouan le Déviant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<video autoplay muted loop playsinline id="bg-video">
+    <source src="static/video/cat-in-space.webm" type="video/webm">
+</video>
+<div class="app-container">
+    <header>
+        <h1>Titouan le Déviant</h1>
+        <p>Pose tes questions… il daignera peut-être y répondre correctement.</p>
+    </header>
+
+    <main>
+        <div id="chat-window"></div>
+
+        <form id="chat-form">
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Pose une question..."
+                autocomplete="off"
+                required
+            >
+            <button type="submit" id="send-btn">Envoyer</button>
+        </form>
+    </main>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
